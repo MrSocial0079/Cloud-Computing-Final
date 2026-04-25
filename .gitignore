@@ -1,0 +1,54 @@
+# Environment variables (never commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/.env
+.npm
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+env/
+.Python
+
+# Go build artifacts
+backend/bin/
+backend/*.exe
+
+# Cache directories
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Claude Code local config
+.claude/
+
+# Cloud SQL proxy binary (platform-specific binary, not source)
+cloud-sql-proxy

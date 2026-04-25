@@ -52,3 +52,6 @@ npm-debug.log*
 
 # Cloud SQL proxy binary (platform-specific binary, not source)
 cloud-sql-proxy
+
+# Build scripts
+make_report.js

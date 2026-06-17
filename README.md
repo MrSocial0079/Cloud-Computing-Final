@@ -493,7 +493,3 @@ Cold starts are the primary latency risk. The ~8MB Alpine Go binary is the faste
 **6. Cost calculated client-side.** The SDK computes `cost_usd` at call time from a local pricing table in `pricing.py`. If OpenAI changes pricing, the SDK must be updated and re-deployed. A server-side pricing registry would eliminate this coupling.
 
 ---
-
-## License
-
-MIT — see LICENSE for details.
